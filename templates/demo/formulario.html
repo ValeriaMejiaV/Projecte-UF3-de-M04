@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Saludos</title>
+   
+</head>
+<body>
+
+<form action="/hola2" method="GET">
+    <h2>Saludos</h2>
+    <label for="salutacions">Saludos:</label>
+    <input type="text" id="salutacions" name="salutacions" required><br></br>
+
+    <label for="veces">Cuantas?:</label>
+    <input type="number" id="veces" name="veces" required><br></br>
+
+    <label for="color">Color:</label>
+    <select id="color" name="color" required>
+        <option value="">Selecciona un Color</option>
+        <!-- Aquí puedes agregar opciones para diferentes países -->
+        <option value="red">Rojo</option>
+        <option value="lightgreen">Verde</option>
+        <option value="lightblue">Azul</option>
+        <option value="lightyellow">Amarillo</option>
+        <!-- Puedes agregar más opciones según sea necesario -->
+    </select><br></br>
+
+    <label
+    ><input type="checkbox" id="foto" value="True" name="foto"/> Quieres que aparezca la foto de una gato?</label
+    ><br></br>
+
+    <input type="submit" value="Enviar">
+</form>
+
+</body>
+</html>

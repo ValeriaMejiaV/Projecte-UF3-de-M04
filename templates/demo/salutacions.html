@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo</title>
+  
+</head>
+<body bgcolor="{{color}}">
+    <a href="/hola1">Volver al formulario</a>
+    <h2>{% for i in range(veces) %}
+        <p>{{salutacions}}</p>
+    {% endfor %}<h2>
+    {%if (foto == True)%}
+        <img src="/static/img/gat.jpg" alt="Un gat">
+    {% endif %}
+    
+  
+
+</body>
+</html>
